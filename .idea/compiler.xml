@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jpos-server-forwarding" />
+        <module name="jpos-server-multi-port" />
+        <module name="jpos-server" />
+        <module name="jpos-server-as-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpos-server" target="11" />
+      <module name="jpos-server-as-client" target="11" />
+      <module name="jpos-server-forwarding" target="11" />
+      <module name="jpos-server-multi-port" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

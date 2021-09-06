@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<channel-adaptor class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2" name="JPOS_channel" realm="JPOS_channel">
+	<channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" packager="org.jpos.iso.packager.ISO87APackager">
+		<property name="host" value="localhost"/>
+        <property name="port" value="8888"/>
+	</channel>
+	<in>JPOS_channel-in</in>
+	<out>JPOS_channel-out</out>
+	<ready>JPOS_channel.ready</ready>
+	<unhandled>JPOS_channel-unhandled</unhandled>
+	<reconnect-delay>1000</reconnect-delay>
+</channel-adaptor>

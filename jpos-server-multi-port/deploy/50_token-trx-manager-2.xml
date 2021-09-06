@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<txnmgr class="org.jpos.transaction.TransactionManager" logger="Q2" name="JPOSTrxmgnr2" realm="JPOSTrxmgnr2">
+    <property name="space" value="tspace:MyTransQueue2"/>
+    <property name="queue" value="MyTransQueue2"/>
+<!--    <property name="sessions" value="500"/>-->
+<!--    <property name="max-sessions" value="500"/>-->
+    <property name="debug" value="false"/>
+
+	<participant class="com.ads.jpos.Selector" logger="Q2">
+        <property name="0800" value="Network"/>
+        <property name="isorequest" value="REQUESTTRANS2"/>
+        <property name="isosource" value="ISOTRANS2"/>
+        <property name="logger" value="Q2"/>
+	</participant>
+
+    <group name="Network">
+        <participant class="com.ads.jpos.Network" logger="Q2">
+            <property name="isorequest" value="REQUESTTRANS2"/>
+            <property name="isosource" value="ISOTRANS2"/>
+            <property name="logger" value="Q2"/>
+            <property name="timeout" value="30000" />
+        </participant>
+    </group>
+
+</txnmgr>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server class="org.jpos.q2.iso.QServer" logger="Q2" name="JPOS-server" realm="JPOSServer">
+<!--  <attr name="minSessions" type="java.lang.Integer">500</attr>-->
+<!--  <attr name="maxSessions" type="java.lang.Integer">500</attr>-->
+  <attr name="port" type="java.lang.Integer">8888</attr>
+  <channel class="org.jpos.iso.channel.ASCIIChannel" packager="org.jpos.iso.packager.ISO87APackager" logger="Q2">
+    <property name="keep-alive" value="true"/>
+  </channel>
+  <request-listener class="com.ads.jpos.RequestListener" logger="Q2">
+    <property name="space" value="tspace:MyTransQueue"/>
+    <property name="queue" value="MyTransQueue"/>
+    <property name="isorequest" value="REQUESTTRANS"/>
+    <property name="isosource" value="ISOTRANS"/>
+    <property name="timeout" value="30000"/>
+  </request-listener>
+  <connection-listener class="com.ads.jpos.Logon" />
+</server>

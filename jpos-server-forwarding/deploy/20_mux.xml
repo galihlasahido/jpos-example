@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="JPOS_mux" realm="JPOS_mux">
+	<out>JPOS_channel-in</out>
+	<in>JPOS_channel-out</in>
+	<ready>JPOS_channel.ready</ready>
+	<unhandled>JPOS_channel-unhandled</unhandled>
+</mux>
