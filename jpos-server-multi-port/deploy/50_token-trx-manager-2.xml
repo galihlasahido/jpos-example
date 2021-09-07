@@ -7,7 +7,7 @@
     <property name="debug" value="false"/>
 
 	<participant class="com.ads.jpos.Selector" logger="Q2">
-        <property name="0800" value="Network"/>
+        <property name="0800180000" value="Network"/>
         <property name="isorequest" value="REQUESTTRANS2"/>
         <property name="isosource" value="ISOTRANS2"/>
         <property name="logger" value="Q2"/>
