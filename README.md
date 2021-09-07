@@ -1,21 +1,21 @@
-# JPos example
-OpenSource implementation of the international ISO8583 standard JPos libraries
+# jPOS example
+OpenSource implementation of the international ISO8583 standard jPOS libraries
 
-#JPos Client
-    simple jpos client example
+#jPOS Client
+    simple jPOS client example
 
-#JPos Client as Server
-    simple jpos client as Server example
+#jPOS Client as Server
+    simple jPOS client as Server example
 
-#JPos Server
-    simple jpos server example
+#jPOS Server
+    simple jPOS server example
 
-#JPos Server as Client
-    jpos server that also act as client, this way the server even can also send echo message to a client app that connect to the server
+#jPOS Server as Client
+    jPOS server that also act as client, this way the server even can also send echo message to a client app that connect to the server
 
-#JPos Server With Port Forwarding
-    jpos server that act like server and forward it as a client to another server
+#jPOS Server With Port Forwarding
+    jPOS server that act like server and forward it as a client to another server
 
-#JPos Server With Multiport
-    jpos server that can have multiple port in one application
+#jPOS Server With Multiport
+    jPOS server that can have multiple port in one application
 
