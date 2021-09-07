@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jpos-server-forwarding" />
+        <module name="jpos-client" />
+        <module name="jpos-client-as-server" />
         <module name="jpos-server-multi-port" />
         <module name="jpos-server" />
         <module name="jpos-server-as-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jpos-client" target="11" />
+      <module name="jpos-client-as-server" target="11" />
+      <module name="jpos-client-as-server (1)" target="11" />
       <module name="jpos-server" target="11" />
+      <module name="jpos-server (1)" target="11" />
       <module name="jpos-server-as-client" target="11" />
       <module name="jpos-server-forwarding" target="11" />
       <module name="jpos-server-multi-port" target="11" />

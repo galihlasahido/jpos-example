@@ -29,5 +29,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-core:2.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-common:2.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: net.i2p.crypto:eddsa:0.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jpos.ee:jposee-client-simulator:2.2.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jpos.ee:jposee-core:2.2.7" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.10.4" level="project" />
   </component>
 </module>

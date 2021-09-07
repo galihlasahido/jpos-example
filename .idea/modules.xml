@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jpos-client/jpos-client.iml" filepath="$PROJECT_DIR$/jpos-client/jpos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpos-client-as-server/jpos-client-as-server.iml" filepath="$PROJECT_DIR$/jpos-client-as-server/jpos-client-as-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/jpos-example.iml" filepath="$PROJECT_DIR$/.idea/jpos-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpos-server/jpos-server.iml" filepath="$PROJECT_DIR$/jpos-server/jpos-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpos-server-as-client/jpos-server-as-client.iml" filepath="$PROJECT_DIR$/jpos-server-as-client/jpos-server-as-client.iml" />

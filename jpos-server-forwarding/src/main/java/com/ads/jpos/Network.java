@@ -38,7 +38,7 @@ public class Network implements TransactionParticipant, Configurable {
         ISOMsg message = ((Context) serializable).get(this.isorequest);
         ISOSource source = ((Context) serializable).get(this.isosource);
         try {
-            QMUX send = NameRegistrar.get("JPOS_mux");
+            QMUX send = NameRegistrar.get("mux.JPOS_mux");
             ISOMsg receive = send.request(message, this.timeout);
             if(receive!=null) {
                 message.set(39, receive.getString(39));

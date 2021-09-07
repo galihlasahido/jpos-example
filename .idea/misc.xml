@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/jpos-server-multi-port/pom.xml" />
         <option value="$PROJECT_DIR$/jpos-server-as-client/pom.xml" />
         <option value="$PROJECT_DIR$/jpos-server-forwarding/pom.xml" />
+        <option value="$PROJECT_DIR$/jpos-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jpos-client-as-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -24,4 +24,6 @@ hs_err_pid*
 
 #jpos
 */q2.log
+*/log/*.hgrm
+*/log/*.*
 */target/
