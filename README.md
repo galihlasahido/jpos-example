@@ -19,3 +19,6 @@ OpenSource implementation of the international ISO8583 standard jPOS libraries
 #jPOS Server With Multiport
     jPOS server that can have multiple port in one application
 
+#how to run
+1. go to folder
+2. run mvn exec:java -Dexec.mainClass="com.ads.jpos.MainApp"
